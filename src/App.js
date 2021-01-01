@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import CardValue from './Compmonents/SetCardValue';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			app
+			<div style={{ width: 250, background: '#272d35' }}>
+				<CardValue title={'Math'}></CardValue>
+			</div>
+		</div>
+	);
 }
 
 export default App;
