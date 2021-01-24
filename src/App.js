@@ -1,13 +1,19 @@
 import './App.css';
-import CardValue from './Compmonents/SetCardValue';
+import LottieAnimationToggle from './Compmonents/toggleLottie';
+import LottieAnimationLoop from './Compmonents/loopLottie';
 
 function App() {
 	return (
 		<div className='App'>
 			app
-			<div style={{ width: 250, background: '#272d35' }}>
-				<CardValue title={'Math'}></CardValue>
-			</div>
+			<LottieAnimationToggle
+				width={400}
+				animationFile={require('./Compmonents/toggleLottie/isometric-smartphone')}
+			></LottieAnimationToggle>
+			<LottieAnimationLoop
+				width={400}
+				animationFile={require('./Compmonents/toggleLottie/isometric-smartphone')}
+			></LottieAnimationLoop>
 		</div>
 	);
 }
