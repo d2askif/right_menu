@@ -49,6 +49,7 @@ function App() {
 				animationFile={require('./Compmonents/toggleLottie/isometric-smartphone')}
 			></LottieAnimationLoop> */}
 		</div>
+		//
 	);
 }
 
